@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 import os
 
-TOKEN = os.getenv("8631056763:AAHpFpYVxt5vEJ5Ljkwgs15jFVjhjStsYJI")
+TOKEN = os.getenv("BOT_TOKEN")
 
 TARGET_TEXT = "{{strategy.order.alert_message}}"
 
